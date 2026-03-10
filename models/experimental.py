@@ -96,7 +96,7 @@ def attempt_load(weights, device=None, inplace=True, fuse=True):
     model = Ensemble()
     for w in weights if isinstance(weights, list) else [weights]:
         import pathlib
-        temp = pathlib.PosixPath
+
         pathlib.PosixPath = pathlib.WindowsPath
 
         ckpt = torch_load(attempt_download(w), map_location="cpu")  # load
