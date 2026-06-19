@@ -1,15 +1,18 @@
 # Metal Scratch Detection using YOLOv5
 
 ## Overview
+
 This project detects scratches on metal surfaces using a custom-trained YOLOv5 model.
 
 ## Technologies Used
+
 - Python
 - YOLOv5
 - PyTorch
 - Google Colab
 
 ## Training
+
 The model was trained on a custom dataset using YOLOv5.
 
 Training command:
@@ -22,4 +25,5 @@ Training notebook:
 tutorial.ipynb
 
 ## Results
+
 Sample detection outputs are available in the results folder.
